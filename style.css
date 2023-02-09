@@ -15,7 +15,7 @@
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -82,7 +82,8 @@ main {
     font-weight: 700;
 }
 
-.about-description p,li {
+.about-description p,
+li {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -132,4 +133,27 @@ main {
     font-weight: 400;
     font-size: 20px;
     color: #737272;
+}
+
+/* xtra planning section styles  */
+.xtra {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('./images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 65px auto;
+    border-radius: 8px;
+    width: 1050px;
+
+}
+
+.xtra .xtra-description {
+    padding: 60px 0 0 55px;
+}
+
+.xtra .xtra-description h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
 }
