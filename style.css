@@ -90,7 +90,10 @@ main {
     color: #151414;
     font-weight: 700;
 }
-
+.about-description ul{
+    list-style: none;
+    list-style-position: inside;
+}
 .about-description p,
 li {
     font-weight: 400;
@@ -98,15 +101,19 @@ li {
     line-height: 26px;
     color: #444343;
 }
+.about-description
+li {
+    margin-left: 5px;
+}
 
 .about-description p {
     margin: 24px 0 16px 0;
 }
-
-.custom-bullets {
-    list-style-image: url(./images/check-mark.png);
-    background-size: 24px 24px;
-    list-style-position: inside;
+.custom-bullets{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -5px;
 }
 
 /* planning section  */
