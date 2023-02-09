@@ -3,7 +3,8 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.primary-btn{
+
+.primary-btn {
     padding: 18px 25px;
     border-radius: 5px;
     background-color: #fff;
@@ -12,8 +13,14 @@
     font-weight: 600;
     font-size: 20px;
 }
-/* banner styles  */
-.banner-img {
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* banner section styles  */
+.banner {
     background-image: url(./images/banner/banner3.png);
     height: 100vh;
     background-size: cover;
@@ -41,7 +48,6 @@
 .banner-description h1 {
     font-size: 65px;
     font-weight: 700;
-    /* line-height: 70px; */
 }
 
 .banner-description p {
@@ -49,4 +55,55 @@
     line-height: 23px;
     font-weight: 400;
     margin: 20px 0 30px 0;
+}
+
+/* about section styles  */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.about .img-div {
+    flex: 50%;
+}
+
+.about-description {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-description h1 {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+}
+
+.about-description p,
+li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.about-description p {
+    margin: 24px 0 16px 0;
+}
+
+.custom-bullets {
+    list-style-image: url(./images/check-mark.png);
+    background-size: 24px 24px;
+    list-style-position: inside;
+}
+
+/* planning section  */
+.planning .planning-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
 }
