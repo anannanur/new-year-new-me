@@ -71,7 +71,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .about .img-div {
@@ -121,7 +121,7 @@ li {
     padding: 100px 0;
 }
 
-.planning .planning-title {
+.planning .planning-title, .target .target-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -157,10 +157,9 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    margin: 65px auto;
+    margin: 40px auto 65px auto;
     border-radius: 8px;
     width: 1050px;
-
 }
 
 .xtra .xtra-description {
@@ -173,11 +172,39 @@ li {
     color: #fff;
     margin-bottom: 20px;
 }
-
+/* target section styles */
+.target{
+    padding: 40px 0 70px 0;
+    width: 1050px;
+    margin: auto;
+}
+.target .target-topics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    color: #000;
+    gap: 20px;
+}
+.target .target-topic{
+    background-image: linear-gradient(45deg, #FF003B 0%, rgba(0, 95, 172, 0) 100%);
+    padding: 50px;
+    border-radius: 10px;
+}
+.target .target-topic h1{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+}
+.target .target-topic h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
 /* footer styles */
 footer {
     background-color: #000;
-    /* color: #fff; */
     padding: 110px 0;
 }
 
