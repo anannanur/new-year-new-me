@@ -73,6 +73,7 @@ main {
     flex: 50%;
     display: flex;
     justify-content: center;
+    padding-top: 130px;
 }
 
 .about-description h1 {
@@ -81,8 +82,7 @@ main {
     font-weight: 700;
 }
 
-.about-description p,
-li {
+.about-description p,li {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -100,10 +100,36 @@ li {
 }
 
 /* planning section  */
+.planning {
+    padding: 100px 0;
+}
+
 .planning .planning-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     text-align: center;
     color: #151414;
+    margin-bottom: 40px;
+}
+
+.planning .planning-topic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.planning .planning-topic h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #151414;
+    margin: 10px 0 8px 0;
+}
+
+.planning .planning-topic p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #737272;
 }
